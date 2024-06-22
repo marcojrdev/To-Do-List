@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.login-page, .home-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-task {
+  margin-bottom: 20px;
+}
+
+.add-task input, .add-task textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95%;
+}
+
+.task-list .task-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-item.completed h3, .task-item.completed p {
+  text-decoration: line-through;
+}
+
+.task-item button {
+  margin-right: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
